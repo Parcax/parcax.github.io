@@ -13,8 +13,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: url('fondo.jpg') no-repeat center center/cover;
-            font-family: 'Arial', sans-serif;
+            background: url('img/fondo.jpg') no-repeat center center/cover;
+            font-family: 'Dancing Script', cursive;
             position: relative;
             color: white;
         }
@@ -22,6 +22,8 @@
         h1, h2 {
             color: red; /* Color del texto */
             font-style: italic; /* Texto en cursiva */
+            font-family: 'Dancing Script', cursive; /* Fuente cursiva */
+            margin: 0;
             text-shadow: 1px 1px 0 #000,  /* Borde negro alrededor del texto */
                          -1px -1px 0 #000,
                          1px -1px 0 #000,
@@ -86,10 +88,9 @@
 </head>
 <body>
     <div>
-        <h1>Mi preciosa Mishy💕</h1>
-        <h2>Tengo un regalo para ti✍(<3)</h2>
-        <h2>Feliz Viernes 13</h2>
-        <button onclick="window.location.href='flores.html'">Ver regalo☞💛</button>
+        <h1>Mi preciosa Amy💕</h1>
+        <h2>Tengo una pregunta para ti✍(<3)</h2>
+        <button onclick="window.location.href='flores.html'">Ver pregunta☞💛</button>
     </div>
 </body>
 </html>
